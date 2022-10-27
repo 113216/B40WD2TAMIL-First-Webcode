@@ -1,0 +1,77 @@
+body{
+    background-color:rgba(249, 255, 206, 0.356);
+    background-image: url("https://img.freepik.com/free-vector/vector-wooden-barrel-wine-beer-cellar_107791-1318.jpg?w=2000");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+  .container{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+   
+
+   
+  }
+  .web-instructions{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 150, 150);
+  }
+  .fetchDataBtn{
+    width:200px;
+    height:50px;
+    margin-bottom: 1%;
+    border-radius: 20px;
+    font-size: 30px;
+    color: rgb(252, 207, 207);
+    background:rgba(225,225,225,0.2);
+  }
+  
+  .searchInput{
+    width:500px;
+    height:50px;
+    margin-right:10px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 155, 155);
+    outline: none;
+    background:rgba(225,225,225,0.2) ;
+    
+  }
+  .submitBtn{
+    margin-top: 40px;
+    width:90px;
+    height:50px;
+    border-radius: 30px;
+    font-size: 20px;
+    color:rgb(255, 160, 160);
+    background:rgba(225,225,225,0.2);
+    outline: none;
+  }
+  
+  .result{
+    margin-top: 20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+    width:350px;
+    height:300px;
+    border:2px solid black;
+    text-align: center;
+    margin: 10px 10px;
+    font-size: 20px;
+  
+  
+  }
